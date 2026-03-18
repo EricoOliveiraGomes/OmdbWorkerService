@@ -1,4 +1,5 @@
 using Microsoft.Data.Sqlite;
+using SQLitePCL;
 
 namespace OmdbWorkerService
 {
@@ -35,6 +36,8 @@ namespace OmdbWorkerService
                     if (response.IsSuccessStatusCode)
                     {
                         var conteudo = await response.Content.ReadAsStringAsync(stoppingToken);
+
+                        SQLitePCL.raw.SetProvider(new SQLite3Provider_e_sqlite3());
 
                         using (var connection = new SqliteConnection(connectionString))
                         {
