@@ -39,7 +39,7 @@ namespace OmdbWorkerService
 
                         SQLitePCL.raw.SetProvider(new SQLite3Provider_e_sqlite3());
 
-                        using (var connection = new SqliteConnection(connectionString))
+
                         {
                             connection.Open();
                                                         
