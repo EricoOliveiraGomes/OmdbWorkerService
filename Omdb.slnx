@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="../OmdbApi/OmdbApi.csproj" />
-  <Project Path="OmdbWorkerService/OmdbWorkerService.csproj" />
-</Solution>
