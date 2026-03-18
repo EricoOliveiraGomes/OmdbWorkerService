@@ -1,2 +1,0 @@
-# OmdbWorkerService
-teste
