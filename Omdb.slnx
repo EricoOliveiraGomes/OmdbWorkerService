@@ -1,7 +1,0 @@
-<Solution>
-  <Folder Name="/repo/">
-    <File Path="OmdbWorkerService.db" />
-  </Folder>
-  <Project Path="../OmdbApi/OmdbApi.csproj" />
-  <Project Path="OmdbWorkerService.csproj" />
-</Solution>
